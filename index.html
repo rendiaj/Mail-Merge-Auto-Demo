@@ -1,64 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carbon Ads Desktop Wrapper Container</title>
+    <title>Mail Merge Automation | Document Control Generator</title>
     <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: transparent;
-            overflow: hidden;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-        }
-        #carbonads {
-            display: block;
-            overflow: hidden;
-            max-width: 300px;
-            background-color: #f8f9fa;
-            border: 1px solid #e9ecef;
-            border-radius: 4px;
-            padding: 10px;
-            box-sizing: border-box;
-        }
-        #carbonads a {
-            color: #333333;
-            text-decoration: none;
-        }
-        #carbonads .carbon-wrap {
-            display: flex;
-            flex-direction: column;
-        }
-        .carbon-img {
-            display: block;
-            margin-bottom: 8px;
-            line-height: 1;
-        }
-        .carbon-img img {
-            display: block;
-            margin: 0 auto;
-            border: 0;
-        }
-        .carbon-text {
-            display: block;
-            text-align: left;
-            font-size: 12px;
-            line-height: 1.4;
-            margin-bottom: 8px;
-        }
-        .carbon-poweredby {
-            display: block;
-            text-align: left;
-            font-size: 9px;
-            color: #999999;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            font-weight: 600;
-        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; padding: 40px 20px; background: #f9f9f9; color: #333; margin: 0; }
+        .container { max-width: 650px; margin: auto; background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); }
+        
+        h1 { color: #2c3e50; margin-bottom: 10px; }
+        p { line-height: 1.7; color: #666; }
+        
+        .btn-download { display: inline-block; padding: 18px 35px; background: #27ae60; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 18px; margin: 30px 0; transition: background 0.3s; }
+        .btn-download:hover { background: #219150; }
+        
+        .description-box { text-align: left; margin: 30px 0; padding: 20px; background: #fdfdfd; border-left: 4px solid #27ae60; }
+        
+        #ad-wrapper { margin-top: 50px; min-height: 150px; display: flex; justify-content: center; align-items: center; }
+        #carbonads { max-width: 320px; background: #fff; padding: 15px; border: 1px solid #ddd; border-radius: 4px; }
+        
+        .footer-note { font-size: 12px; color: #999; margin-top: 50px; }
     </style>
 </head>
 <body>
-    <script async src="//cdn.carbonads.com/carbon.js?serve=YOUR_ZONE_ID&placement=YOUR_PLACEMENT_ID" id="_carbonads_js"></script>
+
+    <div class="container">
+        <h1>Mail Merge Automation</h1>
+        <p>Document Control Generator & Workflow Optimizer</p>
+        
+        <div class="description-box">
+            <p><strong>Tentang Aplikasi:</strong></p>
+            <p>Mail Merge Automation adalah solusi otomatisasi untuk pembuatan dokumen massal. Ucapkan selamat tinggal pada <em>copy-paste</em> manual dari Excel ke template dokumen Anda. Aplikasi ini dirancang untuk profesional yang membutuhkan akurasi, kecepatan, dan kontrol dokumen yang efisien.</p>
+        </div>
+
+        <a href="URL_LINK_DOWNLOAD_FILE_EXE_ANDA" class="btn-download">Download Aplikasi (.exe)</a>
+
+        <div id="ad-wrapper">
+            <script async src="//cdn.carbonads.com/carbon.js?serve=YOUR_ZONE_ID&placement=YOUR_PLACEMENT_ID" id="_carbonads_js"></script>
+        </div>
+    </div>
+
+    <div class="footer-note">
+        <p><strong>Disclaimer:</strong> Software ini menggunakan model <em>ad-supported</em> untuk versi trial. Iklan tersemat melalui <em>webview</em> guna memastikan pengalaman pengguna tetap <em>native</em> dan bersih. Kami tidak mengumpulkan data pribadi dari dokumen Anda.</p>
+        <p>&copy; 2026 Mail Merge Automation. All rights reserved.</p>
+    </div>
+
 </body>
 </html>
